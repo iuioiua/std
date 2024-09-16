@@ -38,5 +38,5 @@ jobs:
         uses: denoland/deployctl@v1
         with:
           project: "ashergomez-std-65"
-          entrypoint: "deno jsr:@std/http/file-server"
+          entrypoint: "jsr:@std/http/file-server"
           root: "coverage/html"
